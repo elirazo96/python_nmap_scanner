@@ -45,3 +45,4 @@ print(f"\nScan result:\nHosts up: {scanner.scanstats()['uphosts']}\nHosts down: 
 
 for result in results:
     print(f"Host: {result['host']}\nOpen ports: {result['open_ports']}\nServices: {result['services']}\nOperating system: {result['os_info']}\n")
+print("test")
